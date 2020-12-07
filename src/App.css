@@ -209,14 +209,26 @@ hr {
 
 .btn-delete i {
   font-size: 16px;
-  color: #bbb;
+  color:rgb(202, 67, 67);
   margin-right: 20px;
 }
 
+.btn-delete i:focus,:active{
+  outline: none !important;
+}
+.btn-delete i:hover{
+  color: rgb(124, 2, 2);
+}
 .btn-edit i {
   font-size: 16px;
-  color: #bbb;
+  color: #5bc0de;
   margin-right: 20px;
+}
+.btn-edit i:active,:focus{
+  outline: none !important;
+}
+.btn-edit i:hover{
+  color: #02495f;
 }
 
 .clear-btn {
